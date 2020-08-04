@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.krishbarcode.reportaccident">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="Report Accident"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="User Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="Profile" />
+        <activity
+            android:name=".EmailVerification"
+            android:label="Email Verification" />
+        <activity
+            android:name=".SetProfileImage"
+            android:label="Profile Image" />
+        <activity
+            android:name=".Home"
+            android:label="Serch Vehicle" />
+        <activity
+            android:name=".AddContacts"
+            android:label="Add Contact" />
+        <activity
+            android:name=".sendnotification"
+            android:label="Send Notification" />
+        <activity
+            android:name=".Homeuser"
+            android:label="Search Vehical"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".serchVehical" />
+        <activity android:name=".ViewProfile" />
+        <activity android:name=".updatecontact" />
+        <activity android:name=".updateprofile" />
+        <activity android:name=".updateimage"></activity>
+    </application>
+
+</manifest>

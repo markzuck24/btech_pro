@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "543095533663",
+    "firebase_url": "https://reportaccident-73340.firebaseio.com",
+    "project_id": "reportaccident-73340",
+    "storage_bucket": "reportaccident-73340.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543095533663:android:261dd6b357fa9abe",
+        "android_client_info": {
+          "package_name": "com.krishbarcode.reportaccident"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543095533663-9e2dsovrqb79m8ftjhq9o8lsfii4onr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishbarcode.reportaccident",
+            "certificate_hash": "d894c0986da74e3ba3d13dc997b674f55ec12ec0"
+          }
+        },
+        {
+          "client_id": "543095533663-3dpe0kngk6ej93dnjbvl0rntk18d672v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgBG2ElCxDbj9eWgwCafBsq5AvbUY2Kgg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543095533663-3dpe0kngk6ej93dnjbvl0rntk18d672v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
